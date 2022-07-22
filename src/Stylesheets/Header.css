@@ -1,0 +1,52 @@
+.navbar{
+    height: 10rem;
+    width: 100%;
+    padding: 0 100px !important;
+}
+
+.navbar-brand {
+    font-family: 'Assistant', sans-serif;
+    font-size: 36px !important;
+    font-weight: 800;
+}
+
+.nav-links {
+    font-family: 'Alata', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px 0 15px;
+}
+
+.nav-link{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.navbar-toggled {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    z-index: 1;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
