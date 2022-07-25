@@ -1,12 +1,12 @@
 .navbar{
-    height: 10rem;
+    height: 12rem;
     width: 100%;
-    padding: 0 100px !important;
+    padding: 0 170px !important;
 }
 
 .navbar-brand {
     font-family: 'Assistant', sans-serif;
-    font-size: 36px !important;
+    font-size: 42px !important;
     font-weight: 800;
 }
 
@@ -21,9 +21,20 @@
 .nav-link{
     margin-left: 15px;
     margin-right: 15px;
-    font-size: 18px;
-    display: flex;
+    font-size: 18px !important;
+    display: flex !important; 
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    color: white !important;
+}
+
+.line {
+    margin-top: 5px;
+    background-color: white;
+    height: 2px;
+    width: 50%;
+    visibility: hidden;
 }
 
 .navbar-container {
@@ -43,6 +54,10 @@
 
 .nav-link:hover {
     cursor: pointer;
+}
+
+.nav-link:hover .line{
+    visibility: visible;
 }
 
 a {

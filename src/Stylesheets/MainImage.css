@@ -1,0 +1,28 @@
+.main {
+    background-image: url('../images/desktop/image-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    opacity: 0.7;
+}
+
+.main-container {
+    background-color: black;
+    height: 85vh;
+}
+
+.main-title {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 86px;
+    font-weight: 300;
+    border: 2px solid white;
+    padding: 50px 60px;
+    width: 830px;
+    line-height: normal;
+    margin: 100px 0 0 220px;
+}
+
+.main-title-text {
+    margin: 0;
+}
