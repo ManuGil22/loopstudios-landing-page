@@ -1,0 +1,38 @@
+.creations-container {
+    margin: 50px 220px;
+}
+
+.creations-header-container {
+    display: flex;
+    align-items: center;
+}
+
+.creations-title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 46px;
+    margin-bottom: 0px;
+}
+
+.button {
+    font-family: 'Alata', sans-serif;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px 30px;
+    letter-spacing: 0.4rem;
+    margin-left: auto;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.grid-container {
+    gap: 40px;
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 40px;
+}

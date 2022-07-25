@@ -1,0 +1,39 @@
+.card-container {
+    width: 335px;
+    height: 620px;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.7));
+}
+
+.card-title-container {
+    position: relative;
+    top: -120px;
+    left: 50px;
+}
+
+.card-title {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    text-shadow: 1px 0px black;
+}
+
+.card-img {
+    width: 335px;
+    height: 620px;
+    object-fit: fill;
+    opacity: 0.8;
+}
+
+.card-container:hover .card-title {
+    color: black;
+}
+
+.card-container:hover{
+    background: white;
+    cursor: pointer;
+}
+
+.card-container:hover .card-img {
+    opacity: 0.3;
+}

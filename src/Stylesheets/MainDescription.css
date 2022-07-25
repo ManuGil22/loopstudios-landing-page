@@ -1,14 +1,27 @@
 .container {
-    margin: 170px 350px ;
+    margin: 170px 0 170px 220px !important;
     display: flex;
+    padding: 0 !important;
+}
+
+.image-container {
+    width: 1050px;
+    height: 650px;
+}
+
+.image {
+    width: 1050px;
+    height: 650px;
+    object-fit: fill;
 }
 
 .text-container {
     background-color: white;
     padding: 100px 0 0 100px;
+    width: 690px;
+    height: 500px;
     position: relative;
-    width: 600px;
-    left: -150px;
+    left: -220px;
     top: 200px;
     z-index: 1;
 }
@@ -16,15 +29,22 @@
 .text-title {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
-    font-size: 48px;
+    font-size: 56px;
     margin-bottom: 20px;
 }
 
 .text-description {
     font-family: 'Alata', sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
     color: var(--Dark-Gray);
     margin-right: 50px;
     line-height: 1.5rem;
+}
+
+.absolute-container {
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 1280px;
 }
