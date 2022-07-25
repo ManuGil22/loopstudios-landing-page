@@ -1,3 +1,8 @@
+:root {
+    --Dark-Gray: hsl(0, 0%, 55%);
+    --Very-Dark-Gray: hsl(0, 0%, 41%);
+}
+
 * {
     margin: 0;
     padding: 0;

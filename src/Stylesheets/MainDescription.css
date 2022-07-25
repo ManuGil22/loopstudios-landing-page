@@ -1,0 +1,30 @@
+.container {
+    margin: 170px 350px ;
+    display: flex;
+}
+
+.text-container {
+    background-color: white;
+    padding: 100px 0 0 100px;
+    position: relative;
+    width: 600px;
+    left: -150px;
+    top: 200px;
+    z-index: 1;
+}
+
+.text-title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.text-description {
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--Dark-Gray);
+    margin-right: 50px;
+    line-height: 1.5rem;
+}
