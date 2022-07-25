@@ -1,13 +1,12 @@
 .main {
-    background-image: url('../images/desktop/image-hero.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../images/desktop/image-hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 85vh;
-    opacity: 0.7;
 }
 
 .main-container {
-    background-color: black;
+    background-color: rgba(0,0,0, 0.9);
     height: 85vh;
 }
 
