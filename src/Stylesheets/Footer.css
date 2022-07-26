@@ -1,6 +1,6 @@
 .footer-container {
     background-color: black;
-    padding: 20px 220px;
+    padding: 40px 220px;
     color: white;
 }
 
@@ -27,10 +27,6 @@
 
 .bs-icon {
     width: 25px;
-}
-
-.footer-icon:hover {
-    cursor: pointer;
 }
 
 .footer-link {
@@ -60,4 +56,28 @@
 
 a:hover .line{
     visibility: visible;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.underline {
+    background-color: white;
+    height: 2px;
+    margin-top: 5px;
+    visibility: hidden;
+}
+
+.icon-container:hover {
+    cursor: pointer;
+}
+
+.icon-container:hover .underline{
+    visibility: visible;
+}
+
+.copyright {
+    color: var(--Very-Dark-Gray);
 }
