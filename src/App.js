@@ -5,6 +5,7 @@ import React from 'react';
 import MainImage from './Components/MainImage';
 import MainDescription from './Components/MainDescription';
 import CreationsSection from './Components/CreationsSection';
+import Footer from './Components/Footer';
 
 // Stylesheets
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -16,6 +17,7 @@ function App() {
       <MainImage />
       <MainDescription />
       <CreationsSection />
+      <Footer />
     </div>
   );
 }

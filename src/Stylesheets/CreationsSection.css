@@ -32,6 +32,7 @@
 .grid-container {
     gap: 40px;
     margin-top: 80px;
+    margin-bottom: 200px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     row-gap: 40px;

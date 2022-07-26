@@ -28,11 +28,11 @@ function Header(){
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className='nav-links ms-auto'>
                         <div className='navbar-container' id="navContainer">
-                            <Nav.Link className="nav-link" href="#">About<div class="line"></div></Nav.Link>
-                            <Nav.Link className="nav-link" href="#">Careers<div class="line"></div></Nav.Link>
-                            <Nav.Link className="nav-link" href="#">Events<div class="line"></div></Nav.Link>
-                            <Nav.Link className="nav-link" href="#">Products<div class="line"></div></Nav.Link>
-                            <Nav.Link className="nav-link" href="#">Support<div class="line"></div></Nav.Link>
+                            <Nav.Link className="nav-link" href="#">About<div className="line"></div></Nav.Link>
+                            <Nav.Link className="nav-link" href="#">Careers<div className="line"></div></Nav.Link>
+                            <Nav.Link className="nav-link" href="#">Events<div className="line"></div></Nav.Link>
+                            <Nav.Link className="nav-link" href="#">Products<div className="line"></div></Nav.Link>
+                            <Nav.Link className="nav-link" href="#">Support<div className="line"></div></Nav.Link>
                         </div>
                     </Nav>
                 </Navbar.Collapse>
