@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend mentor solution]()
+- Solution URL: [Frontend mentor solution](https://www.frontendmentor.io/solutions/loopstudios-landing-page-BDKIaZAONy)
 - Live Site URL: [Github project page](https://manugil22.github.io/loopstudios-landing-page/)
 
 ## My process
