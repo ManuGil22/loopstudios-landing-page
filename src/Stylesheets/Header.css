@@ -65,3 +65,34 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 1600px) {  
+    .navbar{
+        padding: 0 120px !important;
+    }
+}
+
+@media (max-width: 1400px) {  
+    .navbar{
+        padding: 0 80px !important;
+    }
+}
+
+@media (max-width: 1200px) {  
+    .navbar{
+        padding: 0 40px !important;
+    }
+    .nav-link{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 500px) {  
+    .navbar{
+        padding: 0 10px !important;
+    }
+    .navbar-brand {
+        font-size: 36px !important;
+    }
+}

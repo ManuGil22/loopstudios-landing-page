@@ -2,6 +2,7 @@
     width: 335px;
     height: 620px;
     background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.7));
+    justify-self: center;
 }
 
 .card-title-container {
@@ -36,4 +37,144 @@
 
 .card-container:hover .card-img {
     opacity: 0.3;
+}
+
+@media (max-width:1750px){
+    .card-container {
+        width: 400px;
+        height: 700px;
+    }
+    .card-img {
+        width: 400px;
+        height: 700px;
+    }
+}
+
+@media (max-width: 1550px) {
+    .card-container {
+        width: 350px;
+        height: 650px;
+    }
+    .card-img {
+        width: 350px;
+        height: 650px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .card-container {
+        width: 300px;
+        height: 600px;
+    }
+    .card-img {
+        width: 300px;
+        height: 600px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .card-container {
+        width: 300px;
+        height: 600px;
+    }
+    .card-img {
+        width: 300px;
+        height: 600px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .card-container {
+        width: 400px;
+        height: 700px;
+    }
+    .card-img {
+        width: 400px;
+        height: 700px;
+    }
+}
+
+@media (max-width: 960px) {
+    .card-container {
+        width: 700px;
+        height: 250px;
+    }
+    .card-img {
+        width: 700px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 810px) {
+    .card-container {
+        width: 600px;
+        height: 220px;
+    }
+    .card-img {
+        width: 600px;
+        height: 220px;
+    }
+    .card-title-container {
+        left: 40px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 700px) {
+    .card-container {
+        width: 500px;
+    }
+    .card-img {
+        width: 500px;
+    }
+}
+
+@media (max-width: 600px) {
+    .card-container {
+        width: 450px;
+        height: 200px;
+    }
+    .card-img {
+        width: 450px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 540px) {
+    .card-container {
+        width: 400px;
+    }
+    .card-img {
+        width: 400px;
+    }
+}
+
+@media (max-width: 450px) {
+    .card-container {
+        width: 350px;
+        height: 150px;
+    }
+    .card-img {
+        width: 350px;
+        height: 150px;
+    }
+    .card-title-container {
+        left: 25px;
+        top: -80px;
+    }
+    .card-title {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 410px) {
+    .card-container {
+        width: 315px;
+        height: 150px;
+    }
+    .card-img {
+        width: 315px;
+        height: 150px;
+    }
 }

@@ -2,12 +2,13 @@
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../images/desktop/image-hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 85vh;
+    height: auto;
+    padding-bottom: 200px;
 }
 
 .main-container {
     background-color: rgba(0,0,0, 0.9);
-    height: 85vh;
+    height: auto;
 }
 
 .main-title {
@@ -24,4 +25,100 @@
 
 .main-title-text {
     margin: 0;
+}
+
+@media (max-width: 1900px) {
+    .main {
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width: 1700px) {
+    .main {
+        padding-bottom: 70px;
+    }
+    .main-title {
+        font-size: 78px;
+        padding: 50px 60px;
+        margin: 100px 0 0 220px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .main-title {
+        margin: 100px 0 0 160px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .main-title {
+        font-size: 64px;
+        padding: 30px 50px;
+        width: 600px;
+    }
+}
+
+@media (max-width: 960px) {
+    .main {
+        background-image:  url('../images/mobile/image-hero.jpg');
+        background-size: fill;
+        height: 170vh;
+    }
+    .main-title {
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 86px;
+        font-weight: 300;
+        border: 2px solid white;
+        padding: 50px 60px;
+        width: auto;
+        margin: 250px 30px;
+    }
+}
+
+@media (max-width: 800px) {
+    .main-title {
+        font-size: 76px;
+    }
+}
+
+@media (max-width: 680px) {
+    .main-title {
+        font-size: 70px;
+        padding: 40px 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-title {
+        font-size: 64px;
+        padding: 40px 40px;
+    }
+    .main {
+        height: 120vh;
+    }
+}
+
+@media (max-width: 550px) {
+    .main-title {
+        font-size: 58px;
+        padding: 40px 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    .main-title {
+        font-size: 50px;
+        padding: 40px 30px;
+    }
+    .main {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 450px) {
+    .main-title {
+        font-size: 38px;
+        padding: 40px 30px;
+    }
 }
